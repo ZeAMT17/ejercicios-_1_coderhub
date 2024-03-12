@@ -30,9 +30,9 @@ function calculadoraDeCalificaciones(qualification){
         console.log(`sacaste ${qualification} tu calificacion es C`);
     }
     else if(qualification >=7){
-        console.log(`sacaste ${qualification} tu calificacion es D`)
+        console.log(`sacaste ${qualification} tu calificacion es D`);
     }else{
-        console.log(`sacaste ${qualification} tu calificacion es F`)
+        console.log(`sacaste ${qualification} tu calificacion es F`);
     }
 }
 calculadoraDeCalificaciones(18);
@@ -41,9 +41,9 @@ function edadParaPension(age){
     if(typeof age !== "number"){
         console.log("no proporcionaste una edad");
     }else if(age >= 55){
-        console.log(`tienes ${age} años puedes ser pensionado`)
+        console.log(`tienes ${age} años puedes ser pensionado`);
     } else{
-        console.log(`tienes ${age} por ahora no puedes pensionarte`)
+        console.log(`tienes ${age} por ahora no puedes pensionarte`);
     }
 }
 edadParaPension(60);
@@ -52,9 +52,9 @@ function parImpar(num){
     if(typeof num !== "number"){
         console.log("no proporcionaste un numero");
 }else if(num % 2 === 0){
-    console.log(`${num} es par`)
+    console.log(`${num} es par`);
 }else{
-    console.log(`${num} es impar`)
+    console.log(`${num} es impar`);
 }
 }
 parImpar(3);
